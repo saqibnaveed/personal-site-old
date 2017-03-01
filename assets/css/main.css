@@ -1,0 +1,186 @@
+body {
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* utility classes */
+
+.underline {
+  text-decoration: underline;
+  color: #444;
+  font-weight: 500;
+}
+
+.cursive {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+.display-block {
+  display: block;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 0px;
+  /*opacity: none;*/
+  background-color: transparent;
+  border-color: transparent;
+  color: #fff;
+}
+
+.navbar-header a {
+  color: #fff;
+}
+
+.navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-nav>li>a:hover {
+  background-color: #1976D2;
+}
+
+/* main header*/
+.main-header {
+  margin-top: -52px;
+  background-image: url(../img/header-bg21080crop.jpg);
+  /*background-image: url(../img/header-bg2-1080saveforweb.jpg);*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  margin-top: 190px;
+  color: #fff;
+}
+
+.intro-lead {
+  /*font-family: 'Dancing Script', cursive;*/
+  font-size: 2.2em;
+  /*font-weight: bold;*/
+  line-height: 1.5em;
+}
+
+.intro-button{
+  width: 200px;
+  font-weight: bold;
+  /*display: inline-block;*/
+}
+.intro-button:hover {
+  color: #777;
+}
+.intro-button:active {
+  color: #777;
+  /*border-color: #fff;*/
+}
+
+/* About */
+
+#about {
+  margin-top: 20px;
+  height: 100vh;
+  /*background-color: #FAFAFA;*/
+}
+
+.about-pic {
+  max-width: 500px;
+}
+
+.about-detail {
+  margin-top: 60px;
+  margin-left: 30px;
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: justify;
+}
+
+/* Services */
+#services {
+  height: 80vh;
+  background-color: #FAFAFA;
+}
+
+.service-heading {
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.service-detail {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+#resume {
+  padding-top: 22px;
+  height: 270px;
+  background-color: #0D47A1;
+  color: #fff;
+}
+#resume .cursive {
+  color: #E0E0E0;
+}
+
+#resume .resume-row {
+  margin-top: 50px;
+}
+
+#resume p {
+  font-size: 1.6em;
+}
+
+#resume p button {
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+
+/* Contact */
+#contact {
+  height: 500px;
+  background-color: #FAFAFA;
+}
+
+.contact-heading {
+  color: #555;
+}
+
+.contact-sections {
+  padding-top: 30px;
+}
+
+.contact-sections h4 {
+  font-size: 1.6em;
+}
+
+.email-heading {
+  padding-top: 20px;
+}
+
+.email-heading a{
+  font-size: 1.3em;
+  /*color: red;*/
+}
+
+.contact-section-2 a {
+  font-size: 1.6em;
+  padding-left: 10px;
+}
+
+.social-icon {
+  font-size: 2em;
+  color: #0D47A1;
+}
+
+footer {
+  height: 100px;
+  background-color: #131418;
+  padding-top: 40px;
+  color: #999;
+  font-size: 1.2em;
+}
